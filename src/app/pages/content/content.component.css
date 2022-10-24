@@ -1,0 +1,18 @@
+.container__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content__cover img {
+  border-radius: 5px;
+}
+
+.content__description {
+  margin-top: 15px;
+}
+
+.content__description p {
+  margin-top: 20px;
+  color: gray;
+}
