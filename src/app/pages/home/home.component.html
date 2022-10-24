@@ -7,11 +7,9 @@
 			cardDescription='Marvel studios anuncia novo filme do homem de ferro'></app-big-card>
 	</div>
 	<div class="articles__others">
-		<app-small-card id="1" photoCover="https://via.placeholder.com/200x100" cardTitle="Saiu nova versão do Angular">
-		</app-small-card>
-		<app-small-card id="2" photoCover="https://via.placeholder.com/200x100" cardTitle="Saiu nova versão do Angular">
-		</app-small-card>
-		<app-small-card id="3" photoCover="https://via.placeholder.com/200x100" cardTitle="Saiu nova versão do Angular">
-		</app-small-card>
+		<div *ngFor="let card of smallCardsArray">
+			<app-small-card id="{{card.id}}" photoCover="{{card.photoCover}}" cardTitle="{{card.cardTitle}}">
+			</app-small-card>
+		</div>
 	</div>
 </div>

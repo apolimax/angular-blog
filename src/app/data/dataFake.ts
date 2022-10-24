@@ -18,3 +18,21 @@ export const dataFake = [
     photoCover: 'https://via.placeholder.com/400x300',
   },
 ];
+
+export const smallCardsFake = [
+  {
+    id: '1',
+    photoCover: 'https://via.placeholder.com/200x100',
+    cardTitle: 'Saiu nova versão do Angular',
+  },
+  {
+    id: '2',
+    photoCover: 'https://via.placeholder.com/200x100',
+    cardTitle: 'Saiu nova versão do Angular 2',
+  },
+  {
+    id: '3',
+    photoCover: 'https://via.placeholder.com/200x100',
+    cardTitle: 'Saiu nova versão do Angular 3',
+  },
+];
